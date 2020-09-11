@@ -7,6 +7,7 @@ A simple register virtual machine in C++.
   * [How to build](#how-to-build)
     + [Windows (Visual Studio 2019)](#windows--visual-studio-2019-)
     + [Debian](#debian)
+  * [How to install(Unix only)](#how-to-install)
   * [VM architecture](#vm-architecture)
     + [Registers](#registers)
     + [Instructions](#instructions)
@@ -46,6 +47,10 @@ cmake .
 make
 ```
 This will build all the binaries in their own folders along the source files.
+
+## How to install
+NOTE: Unix only
+Go to the releases tab, download the installation package. Extract the files from the installation package, then follow the instructions specified in instructions.txt.
 
 ## VM architecture
 
