@@ -42,7 +42,7 @@ sudo apt install cmake
 Now to build the project run the following commands
 ```
 git clone https://github.com/levibland/register-vm.git
-cd NanoVM
+cd register-vm
 cmake .
 make
 ```
