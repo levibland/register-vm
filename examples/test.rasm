@@ -1,0 +1,15 @@
+;; Simple rasm program that adds integers
+mov reg0, 1     ; move 1 into register 0
+printi reg0     ; print the contents of reg0
+printc '\n'     ; new line
+mov reg1, 1     ; move 1 into register 1
+printi reg1     ; print the contents of reg1
+printc '\n'     ; new line
+mov reg2, 2     ; move 2 into register 2
+printi reg2     ; print the contents of reg2
+printc '\n'     ; new line
+add reg1, reg0  ; add reg0 into reg1 <=> reg1 += reg0
+add reg2, reg1  ; add reg1 into reg2 <=> reg2 += reg1
+printi reg2     ; print contents of reg2
+printc '\n'     ; new line
+halt            ; halt execution
