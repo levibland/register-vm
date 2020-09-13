@@ -41,7 +41,7 @@ bool RVMAssembler::readLines(std::string file, std::vector<AssemberInstruction> 
 				continue;
 			}
 			instruction.line = std::regex_replace(line, std::regex("\\s{2,}"), " "); // replace all consecutive whitespaces with single space
-			instruction.line.erase(std::remove(instruction.line.begin(), instruction.line.end(), ','), instruction.line.end()); // RVMemove ','
+			instruction.line.erase(std::remove(instruction.line.begin(), instruction.line.end(), ','), instruction.line.end()); // Remove ','
 			std::transform(instruction.line.begin(), instruction.line.end(), instruction.line.begin(), ::tolower); // to lowercase
 			lines.push_back(instruction);
 		}
