@@ -1,2 +1,2 @@
 *.rasm linguist-language=Assembly
-*.rasm linguist-detecable=true
+*.rasm linguist-detectable=true
